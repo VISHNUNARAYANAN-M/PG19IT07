@@ -1,7 +1,17 @@
 <!DOCTYPE html>
+<?php
+// Start the session
+session_start();
+?>
 
 	<head>
 		<style>
+			body{
+				
+				background-image:url("/img/alogin.jpg");
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
 			
 			#title{
 				background-color:#00b300;
@@ -86,7 +96,8 @@
 			    
 				border-radius: 5px;
 				background-color: #ffffff;
-				padding: 20px;
+				padding: 50px;
+				
 			}
 
 			.col-25 {
@@ -122,7 +133,7 @@
 	<body>
 		
 		<ul>
-			<li id="titlehead"><p id="title">PHARMACY</p></li>
+			<li id="titlehead"><p id="title"><img src="/img/plogo.png"height="50px">E PHARMA</p></li>
 			<li style=margin-right:10px;><a class="active" href="admin_login.php">Admin</a></li>
 			<li><a href="pharmacist_login.php">Pharmacist</a></li>
 			<li><a href="user_login.php">User</a></li>
