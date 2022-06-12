@@ -6,6 +6,12 @@ session_start();
 
 	<head>
 		<style>
+			body{
+				
+				background-image:url("/img/plogin.jpg");
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
 			
 			#title{
 				background-color:#00b300;
